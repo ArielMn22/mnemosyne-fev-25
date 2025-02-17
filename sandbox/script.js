@@ -50,3 +50,21 @@ console.log(n1);
 
 console.log(parseFloat("40.12Ae"));
 console.log(Number("40.12Ae"));
+
+// Condicionais
+let idade2 = 18;
+
+if (idade2 < 18) {
+
+    console.log("Menor de idade.");
+
+} else {
+
+    console.log("Maior de idade.");
+
+}
+
+console.log("CONDICIONAIS")
+console.log("======")
+console.log("18" == 18);
+console.log("18" === 18);
