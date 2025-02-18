@@ -83,7 +83,34 @@
 
 // if (operacao != "/") {
 
-//     console.log("resultado", resultado);
+//   console.log("resultado", resultado);
+
+// }
+
+// EXERCÍCIO 2
+// let num1 = parseFloat(prompt("Insira o primeiro número:"));
+// let num2 = parseFloat(prompt("Insira o segundo número:"));
+// let num3 = parseFloat(prompt("Insira o terceiro número: "));
+
+// if (num1 > num2 && num1 > num3) {
+
+//   console.log("Número maior é o:", num1);
+
+// } else {
+
+//   if (num2 > num1 && num2 > num3) {
+
+//     console.log("Número maior é o:", num2);
+
+//   } else {
+
+//     if (num3 > num1 && num3 > num2) {
+
+//       console.log("Número maior é o: ", num3);
+
+//     }
+
+//   }
 
 // }
 
@@ -109,23 +136,22 @@
 
 // }
 
+// const idade = 18;
 
-const idade = 18;
+// if (idade < 18) {
+//   console.log("Menor de idade");
+// } else if (idade === 18) {
+//   console.log("Acabou de atingir a maioridade");
+// } else {
+//   console.log("Maior de idade");
+// }
 
-if (idade < 18) {
-  console.log("Menor de idade");
-} else if (idade === 18) {
-  console.log("Acabou de atingir a maioridade");
-} else {
-  console.log("Maior de idade");
-}
-
-if (idade < 18) {
-    console.log("Menor de idade");
-} else {
-    if (idade === 18) {
-        console.log("Acabou de atingir a maioridade");
-    } else {
-        console.log("Maior de idade");
-    }
-}
+// if (idade < 18) {
+//     console.log("Menor de idade");
+// } else {
+//     if (idade === 18) {
+//         console.log("Acabou de atingir a maioridade");
+//     } else {
+//         console.log("Maior de idade");
+//     }
+// }
