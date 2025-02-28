@@ -1,8 +1,15 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "../../components/header";
 import memory from "../../services/memory";
+import "./new-memory.css";
 
 const NewMemory = () => {
+
+    useEffect(() => {
+
+        document.title = "Nova memória";
+
+    }, []);	
 
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
